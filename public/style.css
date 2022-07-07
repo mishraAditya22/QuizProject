@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.creater_info{
+    padding: 13vh 16vw;
+    margin: 15vh 15vw;
+    padding: 16vh 16vw;
+    height: auto;
+    width: auto;
+    border-style: dotted;
+    border-radius: 3vw;
+}
+
+.creater_info img{
+    margin-left: 4vw;
+    margin-bottom: 8vh;
+}
+
+.card_css{
+    padding: 13vh 16vw;
+    margin: 12vh 15vw;
+    padding: 16vh 16vw;
+    height: auto;
+    width: auto;
+    border-style: dotted;
+    border-radius: 3vw;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.score_board{
+    padding:4vh 7vw;
+}
+
+.inputFields{
+    justify-content: center;
+    text-align: center;
+    box-sizing: content-box;
+    margin: 2vh 4vw;
+}
+
+.btn{
+    border-radius: 4vw;
+    background-color: aquamarine;
+    color: blue;
+}
+
+.btn:hover{
+    color: antiquewhite;
+    background-color: aqua;
+}
+
+.card_css1{
+    padding: 3vh 3vw;
+    margin: 1.5vh 2vw;
+    height: auto;
+    width: auto;
+    border-style: dotted;
+    border-radius: 3vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.gap{
+    margin: 1.2vh .4vw;
+}

@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+<div class=card_css>
+    <h1>LeaderBoard for Quiz</h1>
+    <div class="score_board">
+        <table>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Score</th>
+            <% scoreDetails.map((element,index)=>{ %>
+                <tr>
+                    <td><%=index+1%></td> 
+                    <td><%=element.name%></td>     
+                    <td><%=element.score%></td>
+                </tr>
+            <% })%>
+        </table>
+    </div>
+</div>
+
+<%- include("partials/footer"); -%>

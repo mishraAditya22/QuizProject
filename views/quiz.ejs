@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%>
+    <!-- <%SData.map((x,ind)=>{%>
+        <h6><%=x.ques%></h6>
+    <%})%> -->
+    <div class="card_css">
+        <form action="quiz" method="POST">
+            <label for="id"><h6>If registered , Enter your name , Else register !!</h6></label>
+            <input  class="gap" type="text" name="id" placeholder="Enter your name " autocomplete="off">
+            <%SData.map((x,ind)=>{%>
+                <h6><%=x.ques%></h6>
+                </br>
+                <% var user = "inp".concat(ind);%>
+                <input class="gap" type="text" name=user placeholder="0 or 1 only " autocomplete="off">
+                </br>
+            <%})%>
+            </br>
+            <button class="btn" type="submit">Check </button>
+        </form>
+    </div>
+<%- include("partials/footer"); -%>
